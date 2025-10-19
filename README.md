@@ -2,7 +2,7 @@
 
 > **Curso:** Programación para Dispositivos Móviles  
 > **Docente:** Josue Miguel Flores Parra  
-> **Alumno:** *[Tu nombre aquí]*  
+> **Alumno:** Hugo Alonso Diaz Chavez 
 > **Semestre:** Sexto  
 > **Fecha:** 16 de octubre de 2025  
 
@@ -37,7 +37,6 @@ y muestra un **historial de partidas** utilizando la base de datos local **Room*
 📁 app/
  ┣ 📂 java/com/example/examparcial/
  ┃ ┣ 📜 MainActivity.kt
- ┃ ┣ 📜 WelcomeFragment.kt
  ┃ ┣ 📜 GameFragment.kt
  ┃ ┣ 📜 ResultFragment.kt
  ┃ ┣ 📜 PuntajeAdapter.kt
@@ -112,16 +111,6 @@ Guarda el **historial de partidas** con los siguientes componentes:
 
 2. **Abrir el proyecto en Android Studio.**
 
-3. **Compilar con:**
-   - `compileSdk = 34`
-   - `minSdk = 24`
-   - `targetSdk = 34`
-   - JDK 17 o superior.
-
-4. **Ejecutar en un emulador o dispositivo físico Android.**
-
----
-
 ## 🧑‍💻 Ejemplo de Ejecución
 
 ```text
@@ -138,7 +127,7 @@ Guarda el **historial de partidas** con los siguientes componentes:
 
 | Criterio Evaluado | Estado | Implementación |
 |--------------------|---------|----------------|
-| Navegación entre Fragments | ✅ | `Welcome → Game → Result` |
+| Navegación entre Fragments | ✅ | `Welcome(main) → Game → Result` |
 | Temporizador (`CountDownTimer`) | ✅ | Juego de 30 segundos |
 | Interacción y feedback | ✅ | Botones + cambio de color |
 | Manejo de estados y lógica | ✅ | Control de aciertos y reinicio |
@@ -150,20 +139,3 @@ Guarda el **historial de partidas** con los siguientes componentes:
 | RecyclerView | ✅ | Visualiza partidas jugadas |
 
 ---
-
-## 🧑‍🏫 Créditos
-
-**Desarrollado por:**  
-👨‍💻 *[Tu nombre completo]*  
-📚 Estudiante de Ingeniería – Facultad de Ingenierías y Arquitectura  
-
-**Profesor:**  
-🎓 *Josue Miguel Flores Parra*  
-
----
-
-## 📜 Licencia
-
-Este proyecto fue desarrollado con fines académicos en el marco del **Examen Parcial 2025-2**  
-del curso *Programación para Dispositivos Móviles*.  
-Se autoriza su uso educativo y demostrativo.
